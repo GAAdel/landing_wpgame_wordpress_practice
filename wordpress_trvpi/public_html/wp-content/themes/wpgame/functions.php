@@ -6,7 +6,9 @@ add_action('wp_enqueue_scripts', 'wpgame_scripts');
 function wpgame_scripts()
 {
   wp_enqueue_style('style-name', get_stylesheet_uri());
-  wp_enqueue_style('style-min', get_template_directory_uri() . '/css/style.min.css');
+  wp_enqueue_style('style-min', get_template_directory_uri() . '/css/style.css');
 
   wp_enqueue_script('script', get_template_directory_uri() . '/js/script.js', array(), '1.0.0', true);
 }
+
+add_theme_support( 'post-thumbnails', array( 'post' ) ); 
