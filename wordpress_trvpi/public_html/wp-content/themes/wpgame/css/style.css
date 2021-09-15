@@ -2,13 +2,13 @@
   padding: 0;
   margin: 0;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
   padding-top: 112px;
-  background: #1A1A32;
-  font-family: 'Montserrat', sans-serif;
+  background: #1a1a32;
+  font-family: "Montserrat", sans-serif;
 }
 
 .header {
@@ -20,14 +20,14 @@ body {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   background: #212037;
   -webkit-box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.12);
-          box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.12);
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.12);
   z-index: 1;
 }
 
@@ -38,11 +38,11 @@ body {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .logo {
@@ -50,15 +50,15 @@ body {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   max-width: 100px;
   width: 100%;
   height: 80px;
-  background-color: #6883C9;
+  background-color: #6883c9;
   text-decoration: none;
 }
 
@@ -72,8 +72,8 @@ body {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .user img {
@@ -88,7 +88,7 @@ body {
   width: 100%;
   max-width: 396px;
   height: 48px;
-  background: #37364B;
+  background: #37364b;
   border-radius: 4px;
   position: relative;
 }
@@ -98,7 +98,7 @@ body {
   left: 16px;
   top: 50%;
   -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
+  transform: translateY(-50%);
 }
 
 .search input {
@@ -138,7 +138,7 @@ body {
   background: #212037;
   mix-blend-mode: normal;
   -webkit-box-shadow: 4px 0px 6px rgba(0, 0, 0, 0.12);
-          box-shadow: 4px 0px 6px rgba(0, 0, 0, 0.12);
+  box-shadow: 4px 0px 6px rgba(0, 0, 0, 0.12);
 }
 
 .nav-wrap ul {
@@ -157,7 +157,7 @@ body {
 
 .nav-wrap ul li:hover a {
   -webkit-filter: grayscale(0);
-          filter: grayscale(0);
+  filter: grayscale(0);
 }
 
 .nav-wrap ul li a {
@@ -168,13 +168,13 @@ body {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-filter: grayscale(1);
-          filter: grayscale(1);
+  filter: grayscale(1);
 }
 
 li.current {
@@ -184,15 +184,15 @@ li.current {
 
 li.current::before {
   position: absolute;
-  content: '';
+  content: "";
   width: 5px;
   height: 100%;
-  background: #6883C9;
+  background: #6883c9;
 }
 
 li.current a {
   -webkit-filter: grayscale(0) !important;
-          filter: grayscale(0) !important;
+  filter: grayscale(0) !important;
 }
 
 .content {
@@ -203,13 +203,13 @@ li.current a {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   padding-bottom: 200px;
 }
 
@@ -218,7 +218,7 @@ li.current a {
   font-weight: normal;
   font-size: 12px;
   line-height: 15px;
-  color: #BCBCC3;
+  color: #bcbcc3;
   margin-bottom: 8px;
 }
 
@@ -227,11 +227,11 @@ li.current a {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   height: 480px;
 }
 
@@ -245,8 +245,8 @@ li.current a {
 .game-card__small {
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   width: 182px;
   height: auto;
   cursor: pointer;
@@ -263,7 +263,7 @@ li.current a {
   font-weight: 600;
   font-size: 16px;
   line-height: 20px;
-  color: #FFFFFF;
+  color: #ffffff;
   margin-bottom: 8px;
 }
 
@@ -275,8 +275,8 @@ li.current a {
 .game-card__big {
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   width: 289px;
   height: auto;
   cursor: pointer;
@@ -294,7 +294,7 @@ li.current a {
   font-weight: 600;
   font-size: 20px;
   line-height: 20px;
-  color: #FFFFFF;
+  color: #ffffff;
   margin-bottom: 8px;
 }
 
@@ -304,12 +304,12 @@ li.current a {
 
 .game-card__big .game-price {
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   width: 100%;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
 }
 
 .game-card__big .game-price .game-platforms {
@@ -324,8 +324,8 @@ li.current a {
   display: flex;
   overflow: hidden;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 .game-photo img {
@@ -343,8 +343,8 @@ li.current a {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
 }
 
 .game-info h2 {
@@ -361,7 +361,7 @@ li.current a {
   font-weight: normal;
   font-size: 12px;
   line-height: 22px;
-  color: #BCBCC3;
+  color: #bcbcc3;
   margin-bottom: 32px;
 }
 
@@ -371,7 +371,7 @@ li.current a {
 }
 
 .game-info ul li {
-  color: #BCBCC3;
+  color: #bcbcc3;
   font-size: 12px;
   line-height: 22px;
 }
@@ -401,8 +401,8 @@ li.current a {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   margin-bottom: 32px;
 }
 
@@ -412,13 +412,13 @@ li.current a {
   font-weight: 600;
   font-size: 24px;
   line-height: 29px;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .btn-filter {
   text-transform: uppercase;
   color: #fff;
-  background: #37364B;
+  background: #37364b;
   cursor: pointer;
   padding: 13px 24px 12px;
   text-decoration: none;
@@ -440,20 +440,20 @@ li.current a {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   border: none;
   color: #fff;
   border-radius: 4px;
-  background-color: #6883C9;
+  background-color: #6883c9;
   font-style: normal;
   font-weight: 600;
   font-size: 14px;
   line-height: 17px;
-  color: #FFFFFF;
+  color: #ffffff;
   cursor: pointer;
 }
 
@@ -468,11 +468,11 @@ li.current a {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   color: #fff;
   cursor: pointer;
 }
@@ -494,11 +494,11 @@ li.current a {
   display: flex;
   list-style: none;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   background: #212037;
   -webkit-box-shadow: 4px 0px 6px rgba(0, 0, 0, 0.1);
-          box-shadow: 4px 0px 6px rgba(0, 0, 0, 0.1);
+  box-shadow: 4px 0px 6px rgba(0, 0, 0, 0.1);
   border-radius: 5px;
 }
 
@@ -507,18 +507,18 @@ li.current a {
   font-weight: normal;
   font-size: 14px;
   line-height: 22px;
-  color: #BCBCC3;
+  color: #bcbcc3;
   height: 100%;
   position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   cursor: pointer;
 }
 
@@ -528,13 +528,13 @@ li.current a {
 
 .char-nav-link-active:before {
   position: absolute;
-  content: '';
+  content: "";
   display: block;
   bottom: 0;
   left: 0;
   width: 100%;
   height: 4px;
-  background: #6883C9;
+  background: #6883c9;
 }
 
 .char-tabs {
@@ -552,7 +552,7 @@ li.current a {
   font-weight: normal;
   font-size: 14px;
   line-height: 24px;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .char-tabs li:nth-child(1) {

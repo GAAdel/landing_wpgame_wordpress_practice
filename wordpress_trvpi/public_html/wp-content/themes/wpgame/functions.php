@@ -10,3 +10,5 @@ function wpgame_scripts()
 
   wp_enqueue_script('script', get_template_directory_uri() . '/js/script.js', array(), '1.0.0', true);
 }
+
+add_theme_support( 'post-thumbnails', array( 'post' ) ); 
