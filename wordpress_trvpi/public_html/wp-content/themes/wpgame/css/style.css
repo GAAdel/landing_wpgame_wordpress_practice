@@ -204,13 +204,15 @@ li.current a {
   display: flex;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
   padding-bottom: 200px;
+}
+
+.game-card__small {
+  margin-right: 20px;
+  margin-bottom: 20px;
 }
 
 .game-genre {
