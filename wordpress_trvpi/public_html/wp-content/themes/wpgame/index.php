@@ -15,7 +15,7 @@
 						?>
 								<div class="game-card game-card__order">
 									<div class="game-photo">
-										<img src="<?php echo get_the_post_thumbnail_url(); ?>" alt="">
+										<img src="<?php echo get_the_post_thumbnail_url();?>" alt="">
 									</div>
 									<div class="game-info">
 										<a href="#" class="btn-filter">NEWEST</a>
