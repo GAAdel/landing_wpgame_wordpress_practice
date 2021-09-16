@@ -57,7 +57,7 @@
 									<div class="game-info">
 										<h4><?php the_title();?></h4>
 										<span class="game-genre">Action, Adventure</span>
-										<div class="game-price"><span>$25</span></div>
+										<div class="game-price"><span>$25.60</span></div>
 									</div>
 								</a>
 						<?php 
