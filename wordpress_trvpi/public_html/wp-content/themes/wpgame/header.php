@@ -29,32 +29,18 @@
 		</div>
 	</header>
 
-	<nav class="nav-wrap">
-		<ul>
-			<li class="current">
-				<a href="#">
-					<img src="<?php echo get_template_directory_uri() ?>/img/icons/home-run.svg" alt="">
-				</a>
-			</li>
-			<li>
-				<a href="#">
-					<img src="<?php echo get_template_directory_uri() ?>/img/icons/fun.svg" alt="">
-				</a>
-			</li>
-			<li>
-				<a href="#">
-					<img src="<?php echo get_template_directory_uri() ?>/img/icons/audio.svg" alt="">
-				</a>
-			</li>
-			<li>
-				<a href="#">
-					<img src="<?php echo get_template_directory_uri() ?>/img/icons/clapperboard.svg" alt="">
-				</a>
-			</li>
-			<li>
-				<a href="#">
-					<img src="<?php echo get_template_directory_uri() ?>/img/icons/settings.svg" alt="">
-				</a>
-			</li>
-		</ul>
-	</nav>
+	 <?php 
+			wp_nav_menu( [
+			'theme_location'  => 'primary',
+			'container'       => 'nav',
+			'container_class' => 'nav-wrap', 
+			'menu_class'      => '',
+			'echo'            => true,
+			'fallback_cb'     => 'wp_page_menu',
+			'link_before'     => '',
+			'link_after'      => '',
+			'items_wrap'      => '<ul id="%1$s" class="%2$s">%3$s</ul>',
+			'depth'           => 0,
+			'walker'          => '',
+		] );
+	 ?> 

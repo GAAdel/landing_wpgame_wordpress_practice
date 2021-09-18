@@ -3,15 +3,27 @@
 	<section class="content">
 		<div class="game-card game-card__order">
 			<div class="game-photo">
-				<img src="img/game/unch.png" alt="">
+				<?php the_post_thumbnail( );?>
 			</div>
 			<div class="game-info">
-				<a href="#" class="btn-filter">NEWEST</a>
-				<h2>Uncharted 4</h2>
+				<a href="#" class="btn-filter">
+					<?php 
+						$posttags = get_the_tags();
+						if ( $posttags ) {
+							echo $posttags[0]->name . ' ';
+						}
+					 ?>
+				</a>
+				<h2><?php the_title()?></h2>
 				<ul>
-					<li>Category: <span>Third-personActionAdventure</span></li>
-					<li>Developer: <span>Naughty Dog</span></li>
-					<li>Date: <span>10.05.2016</span></li>
+					<li>Category: <span>
+						<?php
+							$category = get_the_category();
+							echo $category[0]->name;
+						?>
+					</span></li>
+					<li>Developer: <span><?php echo $value = get_post_meta( $post -> ID, 'Developer', true );?></span></li>
+					<li>Date: <span><?php echo $value = get_post_meta( $post -> ID, 'Date', true );?></span></li>
 					<li>Platform: <span>PS4</span></li>
 					<li>Box Contains: <span>Disk</span></li>
 				</ul>

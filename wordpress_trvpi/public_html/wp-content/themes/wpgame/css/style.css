@@ -151,8 +151,8 @@ body {
   width: 100%;
 }
 
-.nav-wrap ul li:hover {
-  background: rgba(104, 131, 201, 0.1);
+.nav-wrap ul li.menu-item:hover {
+  background-color: rgba(104, 131, 201, 0.1);
 }
 
 .nav-wrap ul li:hover a {
@@ -175,19 +175,36 @@ body {
   align-items: center;
   -webkit-filter: grayscale(1);
   filter: grayscale(1);
+  opacity: 0;
 }
 
-li.current {
+.nav-wrap ul li.home-icon {
+  background: url("../img/icons/home-run.svg") no-repeat center / 25px;
+}
+
+.nav-wrap ul li.games-icon {
+  background: url("../img/icons/fun.svg") no-repeat center / 25px;
+}
+
+.nav-wrap ul li.music-icon {
+  background: url("../img/icons/audio.svg") no-repeat center / 25px;
+}
+
+.nav-wrap ul li.games-icon {
+  background: url("../img/icons/fun.svg") no-repeat center / 25px;
+}
+
+.nav-wrap ul li.current_page_item {
   position: relative;
-  background: rgba(104, 131, 201, 0.1);
+  background-color: rgba(104, 131, 201, 0.1);
 }
 
-li.current::before {
+.nav-wrap ul li.current_page_item::before {
   position: absolute;
   content: "";
   width: 5px;
   height: 100%;
-  background: #6883c9;
+  background-color: #6883c9;
 }
 
 li.current a {
